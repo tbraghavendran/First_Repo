@@ -1,0 +1,28 @@
+Configure git bash:
+git config --global "username"
+git config --global email_address
+
+Create a folder or repository:
+mkdir repository_name
+
+Initialize a repository:
+git init 
+
+Whenever a repository is created, a default branch named master is created. 
+
+Status:
+git status
+
+Add a file to repository:
+git add . 
+
+Remove a file:
+rm -r file_name
+
+Commit a file:
+git commit -m"message"
+
+To know the Commit status:
+git log
+
+
